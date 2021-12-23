@@ -6,23 +6,24 @@
 </head>
 <body>
     <p>Por favor, escolha um sistema operacional:</p>
+    <form>
     <div>
-        <input type="checkbox" id="windows" name="windows" onclick="onlyOne(this)">
+        <input type="radio" id="windows" name="opcao" value="op1"> 
         <label for="windows">Windows</label>
     </div>
     
     <div>
-        <input type="checkbox" id="linux" name="linux" onclick="onlyOne(this)">
+        <input type="radio" id="linux" name="opcao" value="op2" >
         <label for="linux">Linux</label>
     </div>
     
     <div>
-        <input type="checkbox" id="macos" name="macos" onclick="onlyOne(this)">
+        <input type="radio" id="macos" name="opcao" value="op3">
         <label for="macos">MacOS</label>
     </div>
+    </form>
 
-    
-    
     <a href="/voto">Vote</a>
+
 </body>
 </html>
